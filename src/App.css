@@ -1,0 +1,162 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+/*Contact Us Section*/
+footer{
+  background-color: #1d232c;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container{
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  justify-content: center;
+}
+.footer-content{
+  width: 33.3%;
+}
+.container h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content p{
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+  font-size: 14px;
+}
+.footer-content ul{
+  text-align: center;
+}
+.list{
+  padding: 0;
+}
+.list li{
+  width: auto;
+  text-align: center;
+  list-style-type:none;
+  padding: 7px;
+  position: relative;
+}
+
+.list li::before{
+  content: '';
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  transition-duration: -5s;
+}
+
+.list li :hover::before{
+  width: 70px;
+}
+.social-icons{
+  text-align: center;
+  padding: 0;
+  padding-left: 25px;
+}
+.social-icons li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;   
+}
+.social-icons i{
+  color: white;
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: lightblue;
+}
+.social-icons li:hover{
+  color: lightblue;
+}
+
+.bottom-bar{
+  text-align: center;
+  background-color:lightblue;
+  color: black;
+  padding: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.bottom-bar p{
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  padding: 7px;
+}
+
+
+/* Media query */
+@media screen and (max-width:600px)  {
+
+  .navbar-links{
+      display: none;
+  }
+  
+  .navbar .icon{
+    display: none;
+  }
+
+  .header-image{
+      display: none;
+  }
+
+  .offer .offer-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .offer .offer-container h1{
+    font-size: 40px;
+  }
+
+  .offer .offer-container h3{
+    font-size: 15px;
+  }
+
+  .image-hoodie .hoodie img{
+    height: 55vh;
+    width: 85vw;
+  }
+
+  .service-container-1{
+      display: none;
+  }
+
+  .service-container-2{
+      flex-direction: column;
+  }
+  .container{
+      align-items: center;
+      display: block;
+      flex-direction: column;
+  }
+
+  .container .footer-content{
+    margin-bottom: 30px;
+  }
+
+  .product .details button{
+    margin-top: 20px;
+  }
+
+  .cart-product .cart-product-details{
+    margin-top: 10px;
+  }
+
+  .container .footer-content h3{
+    font-size: 24px;
+  }
+}

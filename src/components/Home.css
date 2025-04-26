@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+    background-color: #fff;
+  }
+  
+  /*Header*/
+  .header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+  }
+  
+  .header img{
+    border-radius: 20px;
+    box-shadow: -13px 14px 24px -1px rgba(0,0,0,0.75);
+  }
+  
+  .header .head{
+    padding: 30px 20px;
+    padding-bottom: 0px;
+    height: 20%;
+    padding-bottom: 30px;
+  }
+
+  .header-button{
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .header-button:hover{
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .service {
+    padding: 20px;
+  }
+  
+  .service-container-1{
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .service-content{
+    background-color: #fff;
+    box-shadow: -8px 8px 19px -7px rgba(0,0,0,0.75);
+  }
+
+
+  .service-container-2 h4{
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  .service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .offer{
+    margin-top: 20px;
+  }
+
+  .offer h1{
+    font-size: 80px;
+  }
+
+  .offer h3{
+    font-weight: 100;
+    font-size: 30px;
+  }
+
+  .offer .off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .offer .offer-container{
+    border-radius: 30px;
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .image-hoodie{
+    padding: 50px;
+  }
+
+  .hoodie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .hoodie-container .hoodie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-hoodie .hoodie img{
+    box-shadow: -13px 14px 24px -1px rgba(0,0,0,0.75);
+  }
+
+  .hoodie-content{
+    position: absolute;
+    padding-top: 30%;
+  }
+
+  .hoodie-content h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .hoodie-content h3{
+    color: #fff;
+    font-size: 10px;
+  }
+
+  .hoodie-content button{
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+  }
+
+  .hoodie-content button:hover{
+    color: #fff;
+    background-color: #000;
+  }
+
+  .sale{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .sale h2{
+    font-size: 35px;
+  }
+
+  .sale p{
+    padding: 20px ;
+  }
+  
+  .new-arrival{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .image-h2 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+  }
+  
+  .new-arrival-container img{
+    box-shadow: -13px 14px 24px -1px rgba(0,0,0,0.75);
+    border-radius: 20px;
+  }
+  
+  .new-arrival-container button:hover{
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .new-arrival button{
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border: none;
+    background-color: #fff;
+  }
+  
+  .news{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .news h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    border: solid black 1px;
+  }
+  
+  .news button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f2f4f7;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+  }
+  
+  .news button:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .footer-1{
+    margin-top: 2px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .footer-container{ 
+    padding: 15px;
+  }
+
+  .footer-1 .social{
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .footer-1 .social:hover{
+    color: rgb(0, 0, 196);
+  }
+  
+  .footer-1 h2,p{
+    padding-bottom: 10px;
+  }
+
+  

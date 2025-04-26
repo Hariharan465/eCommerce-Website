@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "name": "Denim Baggy",
+      "price": 800,
+      "description": "A stylish pair of slim-fit jeans perfect for casual and semi-casual outings.",
+      "image": "./img/Baggy pant 1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Over Sized T-Shirt",
+      "price": 699,
+      "description": "A cool graphic tee to show off your personality with bold designs.",
+      "image": "./img/Over sized Tshirt.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Old Money Cap",
+      "price": 249,
+      "description": "Comfortable and cozy hoodie for chilly days, featuring a relaxed fit.",
+      "image": "./img/Cap 1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Relaxed Fit Pant",
+      "price": 699,
+      "description": "Chinos that offer a versatile option for both casual and business-casual looks.",
+      "image": "./img/Brown Trouser.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Denim Shirt",
+      "price":1099,
+      "description": "A timeless classic, the leather jacket adds a rugged yet stylish look.",
+      "image": "./img/Denim Shirt 1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Graphic T-Shirt",
+      "price": 599,
+      "description": "A vintage-style denim jacket perfect for layering over shirts or t-shirts.",
+      "image": "./img/Tshirt 1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Baggy Pant",
+      "price": 1299,
+      "description": "A sleek bomber jacket for a fashionable, modern look.",
+      "image": "./img/Baggy 2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Casual Shirt",
+      "price": 899,
+      "description": "A simple, comfortable crewneck sweatshirt for everyday wear.",
+      "image": "./img/Casual Shirt.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Semi Casual Shirt",
+      "price": 800,
+      "description": "A stylish pair of slim-fit jeans perfect for casual and semi-casual outings.",
+      "image": "./img/Casual Shirt 1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Mom Fit Pant",
+      "price": 899,
+      "description": "A cool graphic tee to show off your personality with bold designs.",
+      "image": "./img/Mom fit.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Denim Pant",
+      "price": 999,
+      "description": "Comfortable and cozy hoodie for chilly days, featuring a relaxed fit.",
+      "image": "./img/Denim Pant.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Graphic T-Shirt",
+      "price": 699,
+      "description": "Chinos that offer a versatile option for both casual and business-casual looks.",
+      "image": "./img/Graphict Tshirt.jpg"
+    },
+    {
+      "id": 13,
+      "name": "White T-Shirt",
+      "price":1099,
+      "description": "A timeless classic, the leather jacket adds a rugged yet stylish look.",
+      "image": "./img/Tshirt 2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hoodie",
+      "price": 599,
+      "description": "A vintage-style denim jacket perfect for layering over shirts or t-shirts.",
+      "image": "./img/Hoodie.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Denim Cap",
+      "price": 399,
+      "description": "A sleek bomber jacket for a fashionable, modern look.",
+      "image": "./img/Denim Cap.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Black Hoodie",
+      "price": 899,
+      "description": "A simple, comfortable crewneck sweatshirt for everyday wear.",
+      "image": "./img/Black Hoodie.jpg"
+    }
+    
+  ]
+  

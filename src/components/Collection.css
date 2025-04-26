@@ -1,0 +1,28 @@
+.product-section .search{
+    position: relative;
+    top: 6px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .product-search{
+    width: 30%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+  }
+  
+  .product-search input:focus{
+    outline: none;
+  }
+  
